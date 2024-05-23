@@ -1,0 +1,831 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+
+    .body {
+        overflow-y:scroll;
+        overflow-x:hidden;
+       
+        
+        
+    } 
+
+
+    .background {
+        background-image: url(./christmas-3009949_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: -15px;
+       
+    }
+
+    .empresa {
+        display: flex;
+        text-align: justify;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        background-color: rgb(238, 196, 181);                
+    }
+
+    .sobre {
+        
+        margin-left: 80px;
+        padding-top: 15px;          
+    }
+
+    #botao {
+        text-decoration: none;
+        background-color: #c316c9;
+        display: block;
+        padding: 8px 12px;
+        margin-bottom: 18px;
+        text-align: center;
+        color: #882709;
+        font-weight: bold;
+        border-radius: 30px;
+        border: 2px solid #f1bee5;
+        transition: all ease 0.3s;
+        cursor: pointer; 
+        
+    }
+
+    #botao:hover {
+        color: #eedfe8;
+        background-color: transparent;
+        cursor: pointer; 
+    }
+
+    #botao-form {
+        text-decoration: none;
+        background-color: #c316c9;
+        display:block;
+        padding: 8px 12px;
+        margin-bottom: 18px;
+        margin-top: 15px;
+        text-align: center;
+        color: #882709;
+        font-weight: bold;
+        border-radius: 30px;
+        border: 2px solid #f1bee5;
+        transition: all ease 0.3s;
+        cursor: pointer; 
+        margin-left: 600px;
+        margin-right: 600px;
+        align-items: center;
+        padding-bottom: 10px;
+        
+        
+    }
+
+    #botao-form:hover {
+        color: #eedfe8;
+        background-color: transparent;
+        cursor: pointer; 
+    }
+
+    #botao-form-buscar {
+        text-decoration: none;
+        background-color: #c316c9;
+        display:block;
+        padding: 8px 12px;
+        margin-bottom: 18px;
+        margin-top: -15px;
+        text-align: center;
+        color: #882709;
+        font-weight: bold;
+        border-radius: 30px;
+        border: 2px solid #f1bee5;
+        transition: all ease 0.3s;
+        cursor: pointer; 
+        align-items: center;
+        margin-left: 800px;
+        margin-right: 700px;
+        
+        
+    }
+
+    
+
+    #botao-form-buscar:hover {
+        color: #eedfe8;
+        background-color: transparent;
+        cursor: pointer; 
+    }
+
+
+    #botao-form-compre {
+        text-decoration: none;
+        background-color: #c316c9;
+        display:block;
+        padding: 8px 12px;
+        margin-bottom: 18px;
+        margin-top: 15px;
+        text-align: center;
+        color: #882709;
+        font-weight: bold;
+        border-radius: 30px;
+        border: 2px solid #f1bee5;
+        transition: all ease 0.3s;
+        cursor: pointer; 
+        margin-left: 617px;
+        margin-right: 450px;
+        
+        
+        
+    }
+
+    #botao-form-compre:hover {
+        color: #eedfe8;
+        background-color: transparent;
+        cursor: pointer; 
+    }
+
+    .pedidos {
+        margin-left: 50px;
+        padding-top: 15px;
+      
+    }
+
+    .marca {
+        background-image: url(./backdrop-.webp);
+        background-size: cover;
+        width: 100%;
+        margin-top: -10px;
+        margin-bottom: -35px;
+        height: 200px;
+                
+    }
+ 
+    .marca h1 {
+        text-align:center;
+        margin-bottom: 160px;
+        padding-top: 15px;
+        margin-top: -150px;
+        padding-left:75px;
+        color:rgb(221, 68, 12)
+        
+       
+    }
+
+    .marca img {
+      
+       margin-left: 520px;
+       margin-bottom: 50px;
+       margin-top: 25px;
+       padding-bottom: 35px;
+    }
+
+    .promocao img {
+        height: 700px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .descricao h3 {
+        font-size: 24px;
+        color:rgb(221, 68, 12);
+        text-align: center;
+        padding-top:35px;
+        padding-bottom: 15px;
+        background-color: rgb(235, 168, 143);
+        border-radius: 25px;
+        border-color:rgb(87, 27, 5);
+        border-style:groove;
+        margin-left: 500px;
+        margin-right: 500px;
+               
+    }
+
+    .link-cep {
+        display: block;
+        text-align: center;
+        margin-right: -300px;
+        font-size: 14px;
+        
+    }
+
+    .descricao p {
+        font-size: 20px;
+        text-align: center;
+        color:rgb(15, 2, 2);
+        padding-top: 12px;
+        padding-bottom: 25px;
+    }
+
+
+    .container-make {
+        text-align: center; 
+    }
+
+    .projects-list-item {
+        background-color: rgb(235, 168, 143);
+        border-radius: 25px;
+        border-color:rgb(87, 27, 5);
+        border-style:outset;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        margin-left: 400px;
+        margin-right: 400px;  
+        transition: all ease 0.5s;  
+        text-align: center; 
+        font-size: 14px;
+        
+     }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+      }  /* retirar marcadores*/
+
+    .projects-list-item h4 {
+        font-size: 20px;
+        font-style:italic;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+
+
+    .projects-list-item p {
+        font-size: 20px;
+    }
+
+
+    .envio {
+        background-color: black;
+        color: rgb(197, 197, 24);
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        
+    }
+
+    .aviso p {
+        text-align: center;
+         color: rgb(153, 11, 18);
+        font-size: 35px;
+
+    }
+
+    .condicoes {
+        text-align: center;
+        font-size: 35px;
+        padding-top: 10px;
+        margin-top: 60px;
+        
+    }
+
+
+    .form {
+        text-align: center;
+    }
+
+    .form-control{
+        padding:10px;
+        width: 10%;
+        align-items: center;
+        border-radius: 5px;
+        margin-bottom: 15px;
+              
+    }
+
+    .formulario-pedido h4 {
+        font-size: 25px;
+    }
+
+
+    .input {
+        margin-left:500px;
+        margin-right:400px ;
+    }
+
+    .cartao {
+        margin-right: 450px;
+        font-size: 18px;
+    }
+
+
+    .cartao-numero {
+        margin-right: 240px;
+        font-size: 18px;
+        margin-bottom: 10px;
+            
+    }
+    
+    .cartao-val {
+        margin-right: 225px;
+        font-size: 18px; 
+        
+    }
+
+
+    .cartao-parcelas {
+        margin-right: 10px;
+        font-size: 22px;        
+        
+    }
+
+    .cartao.input {
+        padding: 15px;
+    }
+
+    .cartão-x {
+        margin-right: 50px;
+        font-size: 18px; 
+       
+    }
+
+   
+    .boleto {
+        margin-right: -120px; 
+        font-size: 18px;   
+     }
+
+        .pix {
+            margin-right: 200px;
+            font-size: 18px;  
+        }
+
+        .checkbox {
+            font-size: 16px;
+        }
+
+    .pagamentos img{
+        display: inline;
+        margin-top: 10px;
+        margin-left: 30px; 
+        max-width: 100%;
+        padding-bottom: 12px;
+         /* Espaçamento entre as imagens (opcional) */
+       
+
+        
+    }
+
+    .social-links img {
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 110px; 
+        padding-right: 50px;        
+        max-width: 100%; /* Garante que as imagens não ultrapassem a largura da div */
+        height: auto; /* Mantém a proporção da imagem */
+        margin-right: -10px; /* Espaçamento entre as imagens (opcional) */
+        padding: 10px;
+    }
+
+    .social-links li {
+        margin-left: 15px;
+        display: inline;
+        margin: right -120px;        
+    }
+
+    .fabricante {
+        background-color: rgb(241, 181, 159);  
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 15px;
+    }
+
+    #contador {
+        text-align: center;
+        font-size: 55px;
+        padding-top: 55px;
+        text-decoration:double;
+        color: #eb1010;
+        font-weight: 400px;
+        font-style: oblique;
+        background-color: #e287cd;
+        margin-left: 500px;
+        margin-right: 400px;
+        border-style: dashed;
+        border-radius: 15px;
+        
+    }
+
+
+
+    @media screen and (max-width: 768px) {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: rgb(27, 1, 1);
+            color: rgb(233, 226, 217);
+            width: 80%;
+            align-items: center;
+        }
+    
+        .background {
+            margin-bottom: 15px;
+        }
+    
+        .empresa {
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    
+        .sobre {
+            margin-left: 65px;          
+            padding-top: 20px;
+            align-items: center;
+            
+        }
+
+        .marca {
+            background-image: url(./backdrop-.webp);
+            background-size: cover;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: -35px;
+            height: 200px;
+            margin-left: 5px;                    
+        }
+
+
+        .marca img {
+            
+            margin-bottom: -35px;           
+            margin-left: 10px;             
+        }
+     
+        .marca h1 {
+            text-align:center;
+            margin-bottom: 160px;
+            margin-top: -25px;
+            padding-top: 15px;
+            margin-top: -65px;
+            font-size: 20px;
+            margin-left: 10px;
+            color:rgb(221, 68, 12)            
+           
+        }
+
+        .promocao img {
+            height: 400px;
+            width: 100%;
+            padding-bottom: 12px;
+            margin-bottom: -235px;
+        }
+    
+        .projects-list-item {
+            background-color: rgb(235, 168, 143);
+            border-radius: 25px;
+            border-color:rgb(87, 27, 5);
+            border-style:outset;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 30px;  
+            text-align: center; 
+            font-size: 8px;
+        }
+
+    
+        ul {
+            list-style-type: none;
+            padding: 0;
+          }  
+    
+        .projects-list-item h4 {
+            font-size: 15px;
+            font-style:italic;
+            padding-top: 10px;
+            text-decoration: none;
+        }
+    
+    
+        .projects-list-item p {
+            font-size: 12px;
+        }
+    
+        .envio {
+            background-color: black;
+            color: rgb(197, 197, 24);
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 10px;
+            margin-left: 10px;
+            
+        }
+
+        .aviso p {
+            text-align: center;
+             color: rgb(153, 11, 18);
+            font-size: 20px;
+            margin-bottom: 10px;
+               
+        }
+
+        
+
+        .condicoes {
+            text-align: center;
+            font-size: 15px;
+            padding-top: 10px;
+            margin-top: -150px;
+            margin-bottom: -35px;
+            
+        }
+
+        #contador {
+            width: 30%;
+            text-align: center;
+            font-size: 11px;
+            padding-top: 55px;
+            padding-bottom:50px;
+            text-decoration:double;
+            color: #eb1010;          
+            font-style: oblique;
+            background-color: #e287cd;
+            margin-left: 130px;
+            margin-right: 140px;
+            border-style: dashed;
+            margin-bottom: 185px;
+            margin-top: 30px;
+            
+        }
+    
+
+        .aviso {
+            text-align:center;
+            font-size: 12px;
+            padding-top: 15px;
+            color: #eb1010;
+            font-weight: 40px;            
+            margin-left: 50px;
+            margin-right: 40px;            
+            margin-top: 37px;            
+        }
+
+        .aviso-time {
+            margin-top: -80px;
+            font-size: 18px;  
+        }
+    
+        .form {
+            text-align: center;
+        }
+    
+        .form-control {
+            width: 30%;
+            margin: 0 auto;
+            margin-bottom: 11px;
+            padding-left: 10px;
+            padding-right: 20px;
+        }
+
+       
+            .link-cep {
+                display: block;
+                text-align: center;
+                margin-right: -300px;
+                font-size: 11px;
+                
+            }
+        
+
+        .input  {
+            font-size: 8px;
+            margin-left: 10px;
+            margin-right: 40px;
+            padding-left: 10px;
+            padding-right: 20px;
+            
+        }
+
+        .formulario-pedido h4 {
+            font-size: 10px;
+        }
+    
+        .input {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cartao {
+            margin-right: 165px;
+            font-size: 18px;
+        }
+    
+    
+        .cartao-numero {
+            margin-right: 54px;
+            font-size: 12px;
+            margin-bottom: 10px;
+                
+        }
+        
+        .cartao-val {
+            margin-right: 35px;
+            font-size: 12px; 
+            text-align: center;
+            
+        }
+    
+    
+        .cartao-parcelas {
+            margin-right: 10px;
+            font-size: 22px;        
+            
+        }
+    
+        .cartao.input {
+            padding: 15px;
+        }
+    
+        .cartão-x {
+            margin-right: 50px;
+            font-size: 14px; 
+            text-align: center;
+            margin-right: -10px; 
+            padding-bottom: 15px;           
+        }
+    
+       
+        .boleto {
+            margin-right: -10px; 
+            font-size: 12px;  
+            text-align: center; 
+         }
+    
+            .pix {
+                margin-right: 20px;
+                font-size: 12px;  
+            }
+    
+            .checkbox {
+                font-size: 13px;
+            }
+    
+        .pagamentos img{
+            display: inline;
+            margin-top: 10px;
+            margin-left: 30px; 
+            max-width: 80%;
+            padding-bottom: 12px;
+             /* Espaçamento entre as imagens (opcional) */
+           
+    
+            
+        }
+    
+        .social-links img {
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 40px; 
+            padding-right: 80px;        
+            max-width: 80%; /* Garante que as imagens não ultrapassem a largura da div */
+            height: 20px; /* Mantém a proporção da imagem */
+            margin-right: 18px; /* Espaçamento entre as imagens (opcional) */
+            padding-left: 35px;
+            text-decoration: none;
+        }
+    
+        .social-links li {
+            padding-right:10px;
+            display: inline;
+            margin-right: -80px;
+            margin-left:-80px;
+            margin-bottom: 15px;
+                     
+              
+        }
+    
+        .fabricante {
+            background-color: rgb(241, 181, 159);  
+            text-align: center;
+            padding-top: 10px;
+            margin-top: 25px;
+            font-size: 8px;
+            padding-left: 10px;
+            padding-right: 30px;
+        }
+    
+        #botao {
+            text-decoration: none;
+            background-color: #c316c9;
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 18px;
+            text-align: center;
+            color: #882709;
+            font-weight: bold;
+            border-radius: 30px;
+            border: 2px solid #f1bee5;
+            transition: all ease 0.3s;
+            cursor: pointer; 
+            
+        }
+    
+        #botao:hover {
+            color: #eedfe8;
+            background-color: transparent;
+            cursor: pointer; 
+        }
+    
+        #botao-form {
+            text-decoration: none;
+            background-color: #c316c9;
+            display:block;
+            padding: 8px 12px;
+            margin-bottom: 18px;
+            margin-top: 15px;
+            text-align: center;
+            color: #882709;
+            font-weight: bold;
+            border-radius: 30px;
+            border: 2px solid #f1bee5;
+            transition: all ease 0.3s;
+            cursor: pointer; 
+            margin-left: 800px;
+            align-items: center;
+            margin-left: 770px;
+            padding-bottom: 10px;
+            
+            
+        }
+    
+        #botao-form:hover {
+            color: #eedfe8;
+            background-color: transparent;
+            cursor: pointer; 
+        }
+    
+        #botao-form-buscar {
+            text-decoration: none;
+            background-color: #c316c9;
+            display:block;
+            padding: 8px 12px;
+            margin-bottom: 18px;
+            margin-top: -15px;
+            text-align: center;
+            color: #882709;
+            font-weight: bold;
+            border-radius: 30px;
+            border: 2px solid #f1bee5;
+            transition: all ease 0.3s;
+            cursor: pointer; 
+            align-items: center;
+            margin-left: -80px;
+            margin-right: 900px;
+            
+            
+        }
+    
+        #botao-form-buscar:hover {
+            color: #eedfe8;
+            background-color: transparent;
+            cursor: pointer; 
+        }
+    
+    
+        #botao-form-compre {
+            text-decoration: none;
+            background-color: #c316c9;
+            display:block;
+            padding: 8px 12px;
+            margin-bottom: 18px;
+            margin-top: 15px;
+            text-align: center;
+            color: #882709;
+            font-weight: bold;
+            border-radius: 30px;
+            border: 2px solid #f1bee5;
+            transition: all ease 0.3s;
+            cursor: pointer; 
+            margin-left: 75px;
+            margin-right: 70px;          
+            
+            
+        }
+
+        #botao-form {
+            
+            margin-left: 70px;
+            margin-right: 60px;
+            align-items: center;
+            padding-bottom: 8px;
+            font-size: 14px;  
+            margin-top: 10px;     
+            margin-bottom: -13px;   
+            
+        }
+    
+         .body {
+        overflow-y:scroll;
+        overflow-x:hidden;
+        
+    } 
+    }
+  

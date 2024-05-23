@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3dusa Beauty e Makeup</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">   
+<body>
+    <header>
+        <div class="empresa">
+            <div class="sobre">
+                <button type="button" id="botao">Sobre a M3dusa</button> 
+            </div>
+            <div class="pedidos">
+                <button type="button" id="botao">Acessar seus pedidos</button> 
+            </div>     
+                        
+        </div>
+        <div class="marca">
+            <img src="./medusa.png">
+            <h1>M3dusa Beauty e Makeup</h1>            
+        </div>
+    </header>
+    <div class="background">
+        <div class="promocao">
+            <img src="./kit maquiagem.webp">
+            <div class="descricao">
+                <h3><b>A PROMOÇÃO PODE ACABAR A QUALQUER MOMENTO!</b></h3>
+                <p>MAIS DO QUE MAQUIAGEM! É BELEZA E CUIDADO</p>
+                <p>Nosso lindo kit de maquiagem está em promoção, veja a descrição dos produtos e aproveite pois será por tempo limitado</p>
+            </div>
+        </div>
+            <div class="container-make">
+                <ul>
+                    <li class="projects-list-item">
+                        <h4><b>Paleta de sombra com 8 cores</b></h4>
+                        <p>
+                           Linda paleta com cores versátil, para dia e noite.
+                        </p>
+                    </li> 
+                    <br> 
+                    <li class="projects-list-item">
+                        <h4><b>Corretivo facial</b></h4>
+                        <p>
+                           Corretivo facial a prova d'agua, hidrata e tem excelente textura. Fator 60.
+                        </p>
+                    </li>  
+                    <br>
+                    <li class="projects-list-item">
+                        <h4><b>Pó compacto</b></h4>
+                        <p>
+                           Para realçar sua maquiagem rem ressecar.
+                        </p>
+                    </li> 
+                    <br>
+                    <li class="projects-list-item">
+                        <h4><b>Blush</b></h4>
+                        <p>
+                           Com excente pigmentação e alta durabilidade, espalha supwr bem sem marcar na pele.
+                        </p>
+                    </li> 
+                    <br>
+                    <li class="projects-list-item">
+                        <h4><b>Batom</b></h4>
+                        <p>
+                           Batom super hidratante, com textura cremosa e altura durabilidade.
+                        </p>
+                    </li> 
+                    <br>
+                    <li class="projects-list-item">
+                        <h4><b>Conjunto de pinceis</b></h4>
+                        <p>
+                           Você poderá fazer a maquiagem dos sonhos com nosso conjunto de super pinceis, cerdas macias e resistentes.
+                        </p>
+                    </li>   
+                    <br>  
+                </ul>
+            </div>           
+            <div class="envio">
+                <div>Enviamos todos os pedidos via Correios! </div>
+                <div>Você poderá acompanhar seu pedido com o código de rastreamento que enviamos em seu e-mail. </div>
+                <div>O prazo de postagem do seu pedido no Correio é de até 7 dias úteis. </div>
+                <div>Caso tenha dúvidas na aplicação, poderá entrar em contato com o nosso suporte técnico. </div>
+                <div>Garantia de 7 dias em todas as compras.</div>
+            </div> 
+            <div class="aviso">
+                <p><b class="aviso-time">Promoção por tempo limitado</b></p> 
+                <p><b class="aviso-time">Acaba em...</b></p> 
+            </div>  
+                      
+                <div id="contador">
+                  </div>
+                <div class="valor">
+                    <div class="condicoes">
+                        <p><b>FRETE GRÁTIS</b></p> 
+                   <h5>importante: não oferecemos parcelamento sem juros.</h5>
+                    de <b style="text-decoration: line-through;">R$ 665,00</b> por <b> apenas  R$ 247,97</b>
+                   <br>
+                   <buttom type="submit" id="botao-form-compre">Garanta seu kit</buttom>
+                    <br>
+                    </div>
+                   
+                    <div class="form">
+                        <form id="formulario-pedido">
+                            <div>
+                                <h4 style="font-size: 25px;">Informe seus dados</h4>
+                            </div>
+                            <div class="input">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome">
+                            </div>
+                            <div class="input">
+                                <input type="text" class="form-control" id="cpf"  placeholder="CPF">
+                                </div>
+                            <div class="input" >
+                                <input type="email" class="form-control" id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <div style="margin-right: 380px; color: blue;">
+                                    <a href="https://buscacepinter.correios.com.br/app/endereco/index.php"><b class="link-cep">Não sabe o CEP? clique aqui</b></a>
+                                </div>                                    
+                                <div class="input">                                                                               
+                                    <input type="text" class="form-control" placeholder="CEP" id="cep">
+                                    <button type="button" class="btn btn-primary" id="btn-buscar-cep">buscar
+                                         <i class="bi bi-search"></i>
+                                     <span class="d-none spinner-border spinner-border-sm"></span>
+                                     </button>                          
+                                </div>
+                            </div>
+                            <div class="input">
+                                <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+                            </div>
+                            <div class="input">
+                                <input type="number" min="1" class="form-control" id="numero" placeholder="Numero">
+                            </div>  
+                            <div class="input">
+                                <input type="text" class="form-control" id="complemento" placeholder="Complemento ex. bloco, apartamento...">
+                            </div>                            
+                        </form>           
+                            
+                            <div class="formas-pagamento">                                                            
+                                <div>
+                                    <h4 style="font-size: 20px;">ESCOLHA A FORMA DE PAGAMENTO:</h4>
+                                </div>                
+                                <div class="cartao">
+                                    <input type="radio" name="escolha" />  <label>Credito</label>
+                                    <input type="radio" name="escolha" />  <label>Debito</label>
+                                </div>
+                                <div class="cartao-numero">
+                                    <label>Numero do Cartão</label>
+                                <input type="text" max="16"/> 
+                                </div>
+                                <div class="cartao-val">
+                                        <label>Validade do cartão</label>
+                                    <input type="month" max="dezembro" min="janeiro" />  
+                                    <i class="bi bi-calendar-check"></i> 
+                                </div>
+                                    <form class="cartao-parcelas">
+                                        <div class="cartão-x">
+                                        <label>Selecione a quantidade de parcelas (até 12 vezes sem juros)</label>
+                                        <input type="number" max="12" min="1" />
+                                        </div>                
+                                    <div class="outros-pagamentos">
+                                        <h4>OUTRAS FORMAS DE PAGAMENTO:</h4>
+                                    </div>                
+                                    <div class="boleto">
+                                        <input type="radio" name="escolha"/>    <label>Boleto</label>
+                                         *O pagamento do boleto deverá ser realizado em até 72 horas a partir da compra.
+                                         <p> 
+                                             A informação referente ao pagamento pode demorar até para aparecer em nosso sistema.
+                                        </p>
+                                        </div>
+                                    <div class="pix">
+                                        <input type="radio" name="escolha" /><label>Pix - ***Pagamento aprovado em até 20 minutos</label>
+                                    </div>                                    
+                                    <div class="checkbox"> 
+                                        <input type="checkbox" id="checkbox-termos"/>                      
+                                            Desejo receber informações sobre promocões e novidades por email e whatsapp.                                                                        
+                                    </div>    
+                                    <div class="pagamentos">                                
+                                        <img src="./pagamentos.png"  alt="pagamentos"/>                           
+                                        <br>
+                                        <img src="./pagamentos2.jpeg"  alt="Site seguro"/>                                                         
+                                    </div>
+                                    <div class="button">
+                                        <button type="button" class="btn-cadastro" id="botao-form" >Concluir cadastro
+                                            <i class="bi bi-emoji-laughing"></i>
+                                         <span class="d-none spinner-border spinner-border-sm"></span>
+                                        </button>
+                                    </div> 
+                        </form>
+                            </div>                      
+                    </div>                                      
+                </div>           
+            </div>      
+        <footer style="background-color: rgb(236, 177, 155);">
+            <div class="social-links">
+                <ul >
+                    <li>
+                        <a href="https://www.instagram.com/" title="Siga-nos no Instagram">
+                            <img src="./instagram.png" alt="Logo do Instagram"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" title="Siga-nos no Facebook">
+                            <img src="./facebook.png" alt="Logo do Facebook"> 
+                        </a>                            
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" title="Siga-nos no Youtube">
+                            <img src="./youtube.png" alt="Logo do youtube"/>
+                        </a> 
+                    </li>  
+                    <li>
+                        <a href="https://wa.me/551900000000" target="_blank">
+                            <img src="./whatsapp 1.png" alt="Logo do WhatsApp"/>
+                        </a> 
+                    </li>                                         
+                </ul>
+            </div>
+
+            <div class="fabricante">
+                Produto fabricado e distribuido por: M3dusa Beauty e Makeup | CNPJ: 00.000.000/0001-00 | contato: atendimentocliente@m3deusabeauty.com | Todos os direitos reservados ©
+            </div>
+        </footer>    
+        <script src="./jquery-3.7.1.js"></script>
+        <script src="./jquery.mask.min.js"></script>   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>    
+    <script src="./main.js"></script>
+    </body>
+</html>
